@@ -1,33 +1,97 @@
-.App {
+/* Global */
+
+.button-link {
+  background: none!important;
+  border: none!important;
+  color: #126FCC;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.btn {
+  border-radius: 0!important;
+}
+
+.button-primary {
+  background: #178C5F!important;
+  color: #fff!important;
+}
+
+.margin-top-300 {
+  margin-top: 300px;
+}
+
+.margin-top-200 {
+  margin-top: 200px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+
+.margin-top-60 {
+  margin-top: 60;
+}
+
+.margin-top-40 {
+  margin-top: 40;
+}
+
+.margin-top-20 {
+  margin-top: 20;
+}
+
+.margin-top-10 {
+  margin-top: 10;
+}
+
+.center {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* Transaction Modal */
+
+.transaction-modal div .input {
+  margin: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ui.checkbox input.hidden + label {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  margin: 5px;
+}
+
+.ui.checkbox input:focus ~ label {
+  color: #fff!important;
+}
+
+.react-date-picker__wrapper {
+
+  display: -webkit-flex;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  border: none!important;
+  background: #fff;
+  border-radius: 5px;
+  height: 38px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 
-.App-link {
-  color: #61dafb;
 }
+.react-date-picker__wrapper {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  display: -webkit-flex;
+  display: flex;
+  border: none!important;
+
 }
